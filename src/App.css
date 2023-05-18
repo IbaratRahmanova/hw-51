@@ -1,3 +1,16 @@
 .App {
   text-align: center;
 }
+
+.ball {
+  display: inline-block;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  background-color: #eaeaea;
+  color: #333;
+  font-size: 16px;
+  font-weight: bold;
+  text-align: center;
+  margin-right: 5px;
+}
