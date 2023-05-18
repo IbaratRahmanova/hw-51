@@ -1,6 +1,5 @@
 import React from "react";
-import '.App.css';
-
+import '../Ball.css';
 interface BallProps {
   number: number;
 }
