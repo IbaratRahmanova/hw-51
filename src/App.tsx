@@ -1,6 +1,7 @@
 import React, {useState} from 'react';
-import './App.css';
 import Ball from "./Ball/Ball";
+import './App.css';
+import './Ball.css';
 
 const App: React.FC = () => {
   const [numbers, setNumbers] = useState<number[]>([]);
@@ -18,13 +19,13 @@ const App: React.FC = () => {
 
   return (
     <div className="App">
+      <button onClick={generateNumbers}>New Numbers</button>
       <h1>Lottery numbers</h1>
       <div className="numbers">
         {numbers.map((number, index) => (
         <Ball key={index} number={number} />
           ))}
       </div>
-      <button onClick={generateNumbers}>New Numbers</button>
     </div>
   );
 };

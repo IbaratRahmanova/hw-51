@@ -1,23 +1,14 @@
 .App {
   text-align: center;
-}
-
-/*.app {*/
-/*  text-align: center;*/
-/*  margin-top: 50px;*/
-/*}*/
-
-h1 {
-  font-size: 24px;
-  margin-bottom: 20px;
-}
-
-.numbers {
-  margin-bottom: 20px;
+  margin: 50px auto;
+  background: aqua;
+  width: 400px;
+  height: 200px;
 }
 
 button {
   padding: 10px 20px;
+  margin: 20px 0;
   font-size: 16px;
   background-color: #007bff;
   color: #fff;
@@ -28,5 +19,14 @@ button {
 
 button:hover {
   background-color: #0056b3;
+}
+
+h1 {
+  font-size: 24px;
+  margin: 20px 0 20px;
+}
+
+.numbers {
+  margin-bottom: 30px;
 }
 
